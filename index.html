@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Está chegando a GRANDE PROMOÇÃO!</h1>
+    </main>
+  <div class="countdown">
+    <div>
+      <span id="days">00</span>
+      <span>Dias</span>
+    </div>
+    <div>
+      <span id="hours">00</span>
+      <span>Horas</span>
+    </div>
+    <div>
+      <span id="minutes">00</span>
+      <span>Minutos</span>
+    </div>
+    <div>
+      <span id="seconds">00</span>
+      <span>Segundos</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+  <head>
+    <title>Enviar Mensagem para WhatsApp</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Enviar Mensagem para WhatsApp</h1>
+    <form id="whatsappForm">
+      <label for="recipient">Número de WhatsApp:</label>
+      <input type="text" id="recipient" placeholder="Digite o número de WhatsApp (com código do país)">
+      <label for="message">Mensagem:</label>
+      <textarea id="message" placeholder="Digite sua mensagem"></textarea>
+      <button type="button" onclick="generateWhatsAppLink()">Gerar Link para WhatsApp</button>
+      <div id="whatsappLink"></div>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
